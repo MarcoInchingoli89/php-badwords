@@ -11,14 +11,14 @@
 </head>
 
 <body>
-    <form>
+    <form action="script.php" method="GET">
         <div class="mb-3 p-3">
-            <label for="exampleInputEmail1" class="form-label">Parola da censurare</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="parola" class="form-label">Parola da censurare</label>
+            <input type="text" class="form-control" name="parola" id="parola" aria-describedby="textHelp">
         </div>
         <div class="mb-3 p-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Paragrafo</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label for="paragrafo" class="form-label">Paragrafo</label>
+            <textarea class="form-control" name="paragrafo" id="paragrafo" rows="3"></textarea>
         </div>
         <button type="submit" class="btn btn-primary ms-3">Submit</button>
     </form>
